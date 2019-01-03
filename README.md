@@ -4,7 +4,7 @@ Clster-Plots is a simple and straightforward program for generating cluster spec
 
 ## Installation
 
-One should have R (R Core Team, 2018) or later installed along with the most recent version of ggplot2 (Wickham, 2016).
+One should have R (R Core Team, 2018) or later installed along with the most recent version of ggplot2 (Wickham, 2016). Group means are computed with dplyr (Wickham, François, Henry and Müller, 2018).
 
 ## Usage
  
@@ -35,4 +35,6 @@ The function takes in the following arguments:
 
 1. H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
 
-2. R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+2. Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2018). dplyr: A Grammar of Data Manipulation. R package version 0.7.8. https://CRAN.R-project.org/package=dplyr
+
+3. R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
