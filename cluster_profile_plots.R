@@ -7,7 +7,7 @@
 ## you were warned...
 
 ## Set working directory
-##setwd("C:/Users/noahp/Dropbox/Code/Cluster Plots")
+## setwd("C:/Users/USERNAME/desktop")
 
 ## Packages
 library(readstata13)
@@ -15,12 +15,10 @@ library(ggplot2)
 library(dplyr)
 ## Read in Data
 mydata <- read.dta13("AATI Pilot1_us_11-28wkgB.dta")
-mydata <- read.dta13("AATI Pilot2_CLEAN wkgB.dta")
-mydata <- read.dta13("pilot1and2.dta")
 
 vis_results <- function(
   data=mydata, var.names, class.id, n.class, 
-  output.bounds = c(35,65),
+  output.bounds = c(0,100),
   var.ordered = T
   )
 {
